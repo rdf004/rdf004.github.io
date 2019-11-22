@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19d2bbd2.chunk.css",
+    "main.js": "/static/js/main.7ca90949.chunk.js",
+    "main.js.map": "/static/js/main.7ca90949.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.105f67c5.js",
+    "runtime~main.js.map": "/static/js/runtime~main.105f67c5.js.map",
+    "static/js/2.eb295645.chunk.js": "/static/js/2.eb295645.chunk.js",
+    "static/js/2.eb295645.chunk.js.map": "/static/js/2.eb295645.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1884a1f8120566fa76778188ec5928d.js": "/precache-manifest.b1884a1f8120566fa76778188ec5928d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.19d2bbd2.chunk.css.map": "/static/css/main.19d2bbd2.chunk.css.map",
+    "static/media/FinalDesigns.png": "/static/media/FinalDesigns.e4c7a49e.png",
+    "static/media/Group1.png": "/static/media/Group1.870d6550.png",
+    "static/media/GroupsAlt.png": "/static/media/GroupsAlt.72a717dd.png",
+    "static/media/Matt.png": "/static/media/Matt.f312d026.png",
+    "static/media/Miranda.png": "/static/media/Miranda.aab6d380.png",
+    "static/media/Personas.png": "/static/media/Personas.d3d5940d.png",
+    "static/media/style.css": "/static/media/SF-Pro-Display-Thin.0d61db61.otf",
+    "static/media/altevents.png": "/static/media/altevents.c9ee3618.png",
+    "static/media/before_after.png": "/static/media/before_after.ca9a589e.png",
+    "static/media/copy.png": "/static/media/copy.67aa0e69.png",
+    "static/media/cpp.png": "/static/media/cpp.e15e6fa4.png",
+    "static/media/events.png": "/static/media/events.74d32727.png",
+    "static/media/flow1.png": "/static/media/flow1.a280b247.png",
+    "static/media/flow2.png": "/static/media/flow2.0731ed66.png",
+    "static/media/flowa.png": "/static/media/flowa.f48b19a6.png",
+    "static/media/groups.png": "/static/media/groups.4997dd5b.png",
+    "static/media/iteration1.png": "/static/media/iteration1.a12a2f31.png"
+  }
+}
