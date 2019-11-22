@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Link as Router } from 'react-router-dom';
 
 import About from './Components/About';
 import Work from './Components/Work';
@@ -10,21 +10,20 @@ import Books from './Components/Books';
 import Resume from './Components/Resume';
 import Case1 from './Components/Case1';
 import * as serviceWorker from './serviceWorker';
-import { Redirect } from 'react-router';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router';
 
 const routing = (
-    <Router>
+    <HashRouter basename="Components">
       <div>
         <Route exact path="/" component={About} />
-        <Route path="/#/work" component={Work} />
+        <Route exact path="/work" component={Work} />
         <Route path="/projects" component={Projects} />
         <Route path="/design" component={Design} />
         <Route path="/books" component={Books} />
         <Route path="/resume" component={Resume} />
         <Route path="/case1" component={Case1} />
       </div>
-    </Router>
+    </HashRouter>
 )
 
 ReactDOM.render(routing, document.getElementById('root'));

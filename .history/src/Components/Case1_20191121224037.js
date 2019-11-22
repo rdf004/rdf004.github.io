@@ -65,7 +65,6 @@ We’re empowering users to do just that. Introducing, Events Check-In: a new Li
                     <p>To explore and test our initial workflows, we designed <b>Flow A</b>, a series of paper prototypes which focus on groups that the attendee or recruiter can create, and the flow from viewing a conference or event to creating a group.</p>
                     <img className="big-img" src={flowa} alt="flowa" />
                     <h2>Design Iterations</h2>
-                    <p>After we had established our features and general layouts with paper prototypes, we converted the designs to high-fidelity prototypes based on the LinkedIn mobile app.</p>
                     <img className="big-img-designitr" src={iteration1} alt="Design Iteration 1" />
                     <p>Our prototype implements a combination of the Recruiter and Attendee Workflows. We selected the functionality of creating groups of attendees within events and interacting with those groups, but allowed all attendees the ability to do that. In addition, we added functionality to select certain events that you will be attending. Initially, we aimed to drive in-person interaction from our application. Creating groups and interacting with groups makes contacting recruits easy for recruiters, but also facilitates large-scale interaction for all attendees. Therefore, we decided to expand that functionality from just recruiters to all attendees. </p>
                     <h3>Alternate View Groups Designs</h3>

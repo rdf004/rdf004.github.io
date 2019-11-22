@@ -37,7 +37,7 @@ class Case1 extends React.Component {
                     <p className="case-important" ><b><b>LinkedIn users at professional conferences and networking events should be able to rekindle old connections, strengthen existing connections, and discover new connections from other attendees.</b></b></p>
                     <p></p>
                     <h3>Target User</h3>
-                    <p>We’ve decided to focus on attendees of and recruiters at <b>professional conferences</b>, <b>networking events</b>, and <b>recruiting events</b> as our target audience.</p>
+                    <p>We’ve decided to focus on attendees of <b>professional conferences</b>, <b>networking events</b>, and <b>recruiting events</b> as our target audience.</p>
                     <h3>User Goals</h3>
                     <p>Users (event attendees) should be able to:</p>
                     - check-in as attending a certain professional conference or networking event<br/>
@@ -54,7 +54,6 @@ We’re empowering users to do just that. Introducing, Events Check-In: a new Li
                     </p>
                     <p>Our feature would help attendees prepare meetings before the event even starts, and enhance the experience during the event. LinkedIn currently has messaging and Bluetooth connect features, and we plan to leverage them to help attendees make group chats and share questions, concerns, and plans for the event.</p>
                     <h2>Interviews</h2>
-                    <p>Our first step was to gather data on our users and analyze their pain points. We needed to validate our idea and establish that people currently did not know who would be attending an event, but would like to know. Furthermore, we wanted to find out how our users would use this information and interact with other event attendees before and during events.</p>
                     <p>We conducted two one-on-one interviews. The first was with Faby Zuñiga, a university recruiter at Microsoft, who attends several conferences per year as a recruiter representing Microsoft. The second was with Jennifer Zheng, a software engineer at LinkedIn who also attends several conferences per year, both to represent LinkedIn and to learn more about the technology industry community.</p>
                     <img className="big-img" src={interviewees} alt="interviewees" />
                     <img className="big-img" src={cpp} alt="findings" />
@@ -62,10 +61,9 @@ We’re empowering users to do just that. Introducing, Events Check-In: a new Li
                     <img className="big-img" src={flow1} alt="flow1" />
                     <img className="big-img" src={flow2} alt="flow2" />
                     <p>Our goal is to extend the extend the LinkedIn Events feature in a way that encourages in-person interaction at conferences and professional events. To achieve this goal, people must know who is attending the event and interact with them. After designing our User Workflows, we decided to center our functionality to specifically the features that would encourage interaction in real life. Therefore, we took the idea of verified and unverified check-ins from the original user goals, because people can only physically meet up with others who are actually at the event. We also took the design idea of listing all attendees, and offering a way to connect or interact with them from the list of all attendees.</p>
-                    <p>To explore and test our initial workflows, we designed <b>Flow A</b>, a series of paper prototypes which focus on groups that the attendee or recruiter can create, and the flow from viewing a conference or event to creating a group.</p>
+                    <p>To explore and test our initial workflows, we designed <b>Flow A</b>, which focuses on groups that the attendee or recruiter can create, and the flow from viewing a conference or event to creating a group.</p>
                     <img className="big-img" src={flowa} alt="flowa" />
                     <h2>Design Iterations</h2>
-                    <p>After we had established our features and general layouts with paper prototypes, we converted the designs to high-fidelity prototypes based on the LinkedIn mobile app.</p>
                     <img className="big-img-designitr" src={iteration1} alt="Design Iteration 1" />
                     <p>Our prototype implements a combination of the Recruiter and Attendee Workflows. We selected the functionality of creating groups of attendees within events and interacting with those groups, but allowed all attendees the ability to do that. In addition, we added functionality to select certain events that you will be attending. Initially, we aimed to drive in-person interaction from our application. Creating groups and interacting with groups makes contacting recruits easy for recruiters, but also facilitates large-scale interaction for all attendees. Therefore, we decided to expand that functionality from just recruiters to all attendees. </p>
                     <h3>Alternate View Groups Designs</h3>
@@ -81,7 +79,7 @@ We’re empowering users to do just that. Introducing, Events Check-In: a new Li
                     </div>
                     <p>We also created an alternate version of the screen showing events. In this version, we take a more graphical approach and include a large picture for the event, but users must scroll through events one-by-one. It will take users longer to scroll through screens, and we plan to test whether the speed frustrates users. The success of this version also depends on whether the event creators upload quality pictures. If users recognize events from the image, events may have better recognition on news feeds. </p>
                     <h2>Design Testing</h2>
-                    <p>After iterating on our initial designs, we wanted to see how users interacted with our flow. In particular, we wanted to analyze whether group creation was seamless and whether users could find all the functionality they were expecting. We were able to gather this information by timing how long it took for them to achieve certain steps and by having them express confusion verbally.</p>
+                    
                     <p>We interviewed the following three people.</p>
                     <p><b>Caroline Sih</b> - previous software engineering intern at Intuit; has attended multiple professional conferences in the past</p>
                     <p><b>Chris Maytom</b> - chapter technology chair Tau Beta Pi, a national engineering organization; has attended conferences for Tau Beta Pi</p>

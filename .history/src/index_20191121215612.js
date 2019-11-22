@@ -14,17 +14,17 @@ import { Redirect } from 'react-router';
 import { HashRouter } from 'react-router-dom';
 
 const routing = (
-    <Router>
+    <HashRouter>
       <div>
         <Route exact path="/" component={About} />
-        <Route path="/#/work" component={Work} />
+        <Route path="/work" component={Work} />
         <Route path="/projects" component={Projects} />
         <Route path="/design" component={Design} />
         <Route path="/books" component={Books} />
         <Route path="/resume" component={Resume} />
         <Route path="/case1" component={Case1} />
       </div>
-    </Router>
+    </HashRouter>
 )
 
 ReactDOM.render(routing, document.getElementById('root'));
